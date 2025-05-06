@@ -19,12 +19,15 @@ export default function navBar() {
             </div>
           </Link>
         </div>
-        <ul className="col-start-6 col-span-2 grid grid-cols-2 text-center">
+        <ul className="col-start-5 col-span-3 grid grid-cols-3 text-center">
           <li className="items-center">
             <Link href="../about-me">About Me!</Link>
           </li>
           <li className="col-start-2">
             <Link href="../contact-me">Contact Me</Link>
+          </li>
+          <li className="col-start-3">
+            <Link href="https://codepen.io/cosmob3">Testing Ground</Link>
           </li>
         </ul>
       </nav>

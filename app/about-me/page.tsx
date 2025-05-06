@@ -1,11 +1,6 @@
-import NavBar from "../components/navBar/navBar";
-
 export default function aboutPage() {
   return (
     <div>
-      <header>
-        <NavBar />
-      </header>
       <main>
         <div className="text-center">
           <h1 className="flex justify-center text-5xl">Hi, my name is </h1>

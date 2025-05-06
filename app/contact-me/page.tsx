@@ -1,11 +1,6 @@
-import NavBar from "../components/navBar/navBar";
-
 export default function contactMe() {
   return (
     <div>
-      <header>
-        <NavBar></NavBar>
-      </header>
       <main>
         <article className="text-center">
           <h1>Welcome to contact page</h1>
